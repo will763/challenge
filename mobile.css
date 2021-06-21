@@ -1,0 +1,78 @@
+body #container {
+  height: 100%;
+  width: 100%;
+}
+
+body #container #card {
+  width: 90%;
+  height: 83%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  grid-auto-rows: 30% auto;
+}
+
+body #container #card #information {
+  height: 100%;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #container #card #information h1 {
+  margin: 1em 1.6em 0;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+body #container #card #information #main-paragraph {
+  margin: 1em 6em 0;
+  text-align: center;
+  font-size: .8em;
+}
+
+body #container #card #information #stats {
+  width: 100%;
+  height: 100%;
+  margin: .5em 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 1em;
+}
+
+body #container #card #information #stats div {
+  margin: 1em 0 0 0;
+}
+
+body #container #card #information #stats div h4 {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+body #container #card #information #stats div .stat-headings {
+  font-size: xx-small;
+  font-weight: 400;
+  text-align: center;
+}
+
+body #container #card #img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=mobile.css.map */

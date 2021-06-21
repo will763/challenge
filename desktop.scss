@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2? family = Lexend + Deca & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Inter: wght @ 400; 700 & display = swap');
+
+$main_background : hsl(233, 47%, 7%);
+$card_background :  hsl(244, 38%, 16%);
+$accent: hsl(277, 64%, 61%);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    @include align();
+    height: 100vh;
+    font-size: 15px;
+
+    #container {
+        @include align();
+        background-color:$main_background ;
+        height: 70%;
+        width: 92%;
+    
+        #card {
+            border-radius: 0.4em;
+            width: 85%;
+            height: 70%;
+            background-color: $card_background;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            #information{
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             
+             h1{
+                color: hsl(0, 0%, 100%);
+                margin: 8% 20% 0 10%;
+                font-family: 'Inter', sans-serif;
+                font-weight: 700;
+                font-size: 2.3em;
+
+                span {
+                    color: hsl(277, 64%, 61%);
+                }
+             }
+               #main-paragraph {
+                   font-family:'Inter', sans-serif;;
+                   font-weight: 400;
+                   color: hsla(0, 0%, 100%, 0.75);
+                   margin: 4% 22% 0 10%;
+                   line-height: 1.43em;
+               }
+
+               #stats {
+                   font-family: 'Lexend Deca', sans-serif;
+                   font-weight: 400;
+                   margin-top: 7%;
+                   margin-left: 3.5em;
+                   display: flex;
+                   align-self:flex-start;
+                   color: hsl(0, 0%, 100%);
+
+                   div {
+                      
+                       margin-right: 5.6em;
+
+                       h4{
+                          font-size: 1.4em;
+                       }
+                       .stat-headings {
+                          margin-top: .4em;
+                          font-size: .7em;
+                       }
+                   }
+               }
+            } 
+        
+            #img {
+                background-size: 100% 100%;
+                background-image: url("./images/image-header-desktop.jpg");
+                width: 100%;
+                height: 100%; 
+                border-radius: inherit;
+
+            #shadow {
+                background-color: hsla(280, 98%, 32%, 0.6);
+                width: 100%;
+                height: 100%;     
+                border-radius: inherit;    
+                }
+            }
+        }
+    }
+}

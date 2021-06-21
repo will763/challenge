@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2? family = Lexend + Deca & display = swap");
+@import url("https://fonts.googleapis.com/css2? family = Inter: wght @ 400; 700 & display = swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  font-size: 15px;
+}
+
+body #container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #090b1a;
+  height: 70%;
+  width: 92%;
+}
+
+body #container #card {
+  border-radius: 0.4em;
+  width: 85%;
+  height: 70%;
+  background-color: #1b1938;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+body #container #card #information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #container #card #information h1 {
+  color: white;
+  margin: 8% 20% 0 10%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 2.3em;
+}
+
+body #container #card #information h1 span {
+  color: #aa5cdb;
+}
+
+body #container #card #information #main-paragraph {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 4% 22% 0 10%;
+  line-height: 1.43em;
+}
+
+body #container #card #information #stats {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  margin-top: 7%;
+  margin-left: 3.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  color: white;
+}
+
+body #container #card #information #stats div {
+  margin-right: 5.6em;
+}
+
+body #container #card #information #stats div h4 {
+  font-size: 1.4em;
+}
+
+body #container #card #information #stats div .stat-headings {
+  margin-top: .4em;
+  font-size: .7em;
+}
+
+body #container #card #img {
+  background-size: 100% 100%;
+  background-image: url("./images/image-header-desktop.jpg");
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+body #container #card #img #shadow {
+  background-color: rgba(108, 2, 162, 0.6);
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+/*# sourceMappingURL=desktop.css.map */
